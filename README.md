@@ -1,2 +1,18 @@
 # ToyCompiler
-Course project for Principles of Assembly and Compilation, 2019 Fall, THUSE
+
+A toy compiler translating Python source code into LLVM IRs, based on Python-builtin module **ast** and [llvmlite](https://github.com/numba/llvmlite),
+
+&emsp;by tht([CyrilKZ](https://github.com/CyrilKZ)@github) and zhh([fliingelephant](https://github.com/fliingelephant)@github)
+
+- To run this toy compiler, you may install the following package:
+
+    ```bash
+    pip3 install llvmlite
+    ```
+    
+- Then compile the given ```source.py```
+    ```bash
+    python3 ToyCompiler.py
+    ```
+    
+#### As a course project, only few features are supported, not including type inference of function arguments, returning call result of another function in a function, etc.

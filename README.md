@@ -1,8 +1,8 @@
 # ToyCompiler
 
-A toy compiler translating Python source code into LLVM IRs, based on Python-builtin module **ast** and [llvmlite](https://github.com/numba/llvmlite),
+#### A toy compiler translating Python source code into LLVM IRs, based on Python-builtin module *ast* and [*llvmlite*](https://github.com/numba/llvmlite),
 
-&emsp;by tht([CyrilKZ](https://github.com/CyrilKZ)@github) and zhh([fliingelephant](https://github.com/fliingelephant)@github)
+&emsp;by tht([CyrilKZ](https://github.com/CyrilKZ)@GitHub) and zhh([fliingelephant](https://github.com/fliingelephant)@GitHub)
 
 - To run this toy compiler, you may install the following package:
 
